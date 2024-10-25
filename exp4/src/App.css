@@ -1,0 +1,36 @@
+/* src/App.css */
+.app {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding-bottom: 60px; /* Ensure footer doesn't overlap content */
+  background-color: #141414; /* Netflix-like dark background */
+  color: #fff; /* Netflix-like white text */
+}
+
+.navbar {
+  background-color: #141414;
+  padding: 15px;
+  border-bottom: 1px solid #e50914; /* Netflix Red */
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #e50914; /* Netflix Red on hover */
+}

@@ -1,0 +1,22 @@
+/* Add this in your App.css or any CSS file linked to your component */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  background-color: #87CEEB; /* Sky blue background */
+  min-height: 100vh; /* Make the background cover the entire viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8); /* White with transparency */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add some shadow */
+  text-align: center;
+}
